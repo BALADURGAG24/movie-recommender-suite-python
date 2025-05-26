@@ -53,7 +53,7 @@ Edit
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/movie-recommender-suite.git
+   git clone https://github.com/BALADURGAG24/movie-recommender-suite.git
    cd movie-recommender-suite
 Create and activate a virtual environment (optional but recommended):
 
