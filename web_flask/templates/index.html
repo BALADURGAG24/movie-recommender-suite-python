@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Recommender</title>
+</head>
+<body>
+    <h2>🎬 Movie Recommender (Flask)</h2>
+    <form method="post">
+        <input type="text" name="movie" placeholder="Enter movie title" value="{{ movie }}" required>
+        <button type="submit">Recommend</button>
+    </form>
+    <ul>
+        {% for rec in recommendations %}
+        <li>{{ rec }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

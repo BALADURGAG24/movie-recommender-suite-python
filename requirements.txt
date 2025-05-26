@@ -1,0 +1,5 @@
+pandas
+scikit-learn
+scikit-surprise
+flask
+streamlit
