@@ -3,7 +3,7 @@
 A versatile movie recommendation system supporting both **content-based** and **collaborative filtering** methods.  
 This project offers three interfaces to suit your preference and workflow:  
 - Command-Line Interface (CLI)  
-- Flask Web Application  
+- Flask Web Application   
 - Streamlit Interactive App   
    
 ---
@@ -105,6 +105,7 @@ A browser window will open with a sleek interactive UI for movie recommendations
 Data
 Place your movies.csv file inside the data/ folder.
 The CSV should contain movie metadata such as titles, overviews, and user ratings (for collaborative filtering).
+
 
 
 
