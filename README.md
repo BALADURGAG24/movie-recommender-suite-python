@@ -17,35 +17,37 @@ This project offers three interfaces to suit your preference and workflow:
 ---
 
 ## Project Structure
-
-movie-recommender-suite/
-│
-├── movie_recommender/
-│ ├── init.py
-│ ├── data_loader.py
-│ ├── feature_engineering.py
-│ ├── content_recommender.py
-│ ├── collaborative_recommender.py
-│ └── utils.py
-│
-├── web_flask/
-│ └── app.py
-│
-├── web_streamlit/
-│ └── app.py
-│
-├── cli.py
-├── data/
-│ └── movies.csv
-│
-├── requirements.txt
-├── README.md
-└── .gitignore
-
-yaml
-Copy
-Edit
-
+```
+Directory structure:
+└── baladurgag24-movie-recommender-suite-python/
+    ├── README.md
+    ├── LICENSE
+    ├── requirements.txt
+    ├── run.py
+    ├── run.txt
+    ├── setup.py
+    ├── app/
+    │   ├── main.py
+    │   └── __pycache__/
+    ├── data/
+    │   └── data.txt
+    ├── movie_recommender/
+    │   ├── __init__.py
+    │   ├── collaborative_recommender.py
+    │   ├── content_recommender.py
+    │   ├── data_loader.py
+    │   ├── feature_engineering.py
+    │   ├── utils.py
+    │   └── __pycache__/
+    ├── project-screenshots/
+    ├── web_flask/
+    │   ├── app.py
+    │   ├── __pycache__/
+    │   └── templates/
+    │       └── index.html
+    └── web_streamlit/
+        └── app.py
+```
 ---
 
 ## Installation
@@ -105,6 +107,7 @@ A browser window will open with a sleek interactive UI for movie recommendations
 Data
 Place your movies.csv file inside the data/ folder.
 The CSV should contain movie metadata such as titles, overviews, and user ratings (for collaborative filtering).
+
 
 
 
